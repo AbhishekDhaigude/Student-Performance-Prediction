@@ -130,3 +130,6 @@ class DataTransformation:
             )
         except Exception as e:
             raise CustomException(e,sys)
+        
+
+        # The preprocessor pickle file is used to save the preprocessing steps (like encoding, scaling, imputation, etc.) that you applied to your training data, so you can reapply the exact same transformations to new/unseen data
